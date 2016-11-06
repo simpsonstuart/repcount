@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="RepCounterBand.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RepCounterBand"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="White" Offset="1"/>
+            <GradientStop Color="#FFE7E8E8" Offset="0.309"/>
+        </LinearGradientBrush>
+    </Page.Background>
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,81,0,0" TextWrapping="Wrap" Text="Pair a Microsoft Band with the phone and click &quot;Run&quot;." VerticalAlignment="Top" Height="81" Width="380"/>
+        <Canvas HorizontalAlignment="Left" Height="541" Margin="0,99,0,0" VerticalAlignment="Top" Width="400">
+            <Canvas.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Canvas.Background>
+        </Canvas>
+
+    </Grid>
+</Page>
